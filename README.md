@@ -4,6 +4,8 @@ This is a simple gem that lets you generate CSVs using the decorator pattern.
 
 ## Requirements
 
+This gem is compatible with ruby 1.9.3
+
 This gem uses Draper as the decorator.
 
 The decorator requires the following methods and constants to be available:

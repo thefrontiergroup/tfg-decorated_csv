@@ -7,6 +7,7 @@ Gem::Specification.new do |s|
   s.email       = 'dan@thefrontiergroup.com.au'
   s.files       = ["lib/decorated_csv.rb"]
   s.homepage    = 'http://github.com/thefrontiergroup/tfg-decorated_csv'
+  s.required_ruby_version = '>= 1.9.3'
   s.add_dependency "draper", '>= 1.1.0'
 
   s.add_development_dependency "rspec"
