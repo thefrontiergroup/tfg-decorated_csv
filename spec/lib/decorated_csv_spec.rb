@@ -65,7 +65,7 @@ describe DecoratedCSV do
 
       context 'and #as_csv_row is undefined' do
 
-        specify { expect{subject}.to raise_error NoMethodError, '#as_csv_row is undefined on the decorator' }
+        specify { expect{subject}.to raise_error NoMethodError, '#as_csv_row is undefined on the decorator class' }
 
       end
 
@@ -73,7 +73,7 @@ describe DecoratedCSV do
 
     context 'when CSV_HEADER_ROW is undefined' do
 
-      specify { expect{subject}.to raise_error NameError, 'CSV_HEADER_ROW is undefined on the decorator' }
+      specify { expect{subject}.to raise_error NameError, 'CSV_HEADER_ROW is undefined on the decorator class' }
 
     end
 
