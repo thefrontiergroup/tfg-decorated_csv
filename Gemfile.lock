@@ -24,14 +24,6 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     builder (3.0.4)
-    columnize (0.3.6)
-    debugger (1.4.0)
-      columnize (>= 0.3.1)
-      debugger-linecache (~> 1.1.1)
-      debugger-ruby_core_source (~> 1.2.0)
-    debugger-linecache (1.1.2)
-      debugger-ruby_core_source (>= 1.1.1)
-    debugger-ruby_core_source (1.2.0)
     diff-lcs (1.2.1)
     draper (1.1.0)
       actionpack (>= 3.0)
@@ -67,6 +59,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  debugger
   decorated_csv!
   rspec
