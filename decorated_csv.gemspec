@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'decorated_csv'
-  s.version     = '0.0.1'
+  s.version     = '1.0.0'
   s.date        = '2013-03-11'
   s.summary     = "CSV generator utilising the decorator pattern"
   s.authors     = ["Dan Galipo"]
